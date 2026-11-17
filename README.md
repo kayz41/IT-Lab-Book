@@ -53,9 +53,25 @@ It serves as a record of my practical learning, technical development, and progr
 
 ---
 
-### Question 02 — Coming Soon
 
-The assignment brief and solution will be added when the question is received.
+### Question 2: MTN Uganda Website
+
+**Objective:** Build a simple two-page MTN Uganda website using HTML and external CSS.
+
+**Requirements:**
+- Create an external `style.css` file.
+- Apply a CSS reset to all elements.
+- Style a yellow Flexbox navigation bar using `#FFCC00`.
+- Style navigation links with dark text, bold weight, no underline and a hover colour of `#333333`.
+- Style the footer with a `#333333` background, white text, centred alignment and 20px padding.
+- Create a homepage (`index.html`) linked to the external stylesheet.
+- Add a full-width `hero.jpg` image with meaningful alternative text and the overlay text "Stay Connected, Uganda".
+- Display three service cards: Data Bundles, MoMo and Devices.
+- Give each service card a heading, description and yellow "Learn More" link button.
+- Create a Bundles page (`bundles.html`) with working navigation.
+
+**Technologies:** HTML5 and External CSS3.
+
 
 ### Question 03 — Coming Soon
 
