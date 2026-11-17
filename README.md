@@ -2,132 +2,130 @@
 
 ## About This Project
 
-Welcome to my Information Technology Lab Book.
-
-This repository documents practical assignments completed during my studies at **ISBAT University**.
-
-It serves as a record of my practical learning, technical development, and progress throughout the course.
+This repository documents practical web-development assignments completed during my studies at **ISBAT University**. It records my work with semantic HTML, CSS, forms, tables, responsive layouts and Git/GitHub.
 
 ## Repository Structure
 
-| Folder | Assignment |
-|---|---|
-| `Question-01/` | ISBAT IT Department Homepage |
-| `Question-02/` | MTN Uganda Website |
-| `Question-03/` | Makerere University Year 2 Results Table |
-| `Question-04/` | URA TIN Registration Portal |
-| `Question-05/` | Coming soon |
-| `Question-06/` | Coming soon |
-| `Question-07/` | Coming soon |
-| `Question-08/` | Coming soon |
-| `Question-09/` | Coming soon |
-| `Question-10/` | Coming soon |
+| Folder | Assignment | Main files |
+|---|---|---|
+| `Question-01/` | ISBAT IT Department Homepage | `index.html`, `isbat-university-logo.png` |
+| `Question-02/` | MTN Uganda Website | `index.html`, `bundles.html`, `style.css`, `hero.jpg` |
+| `Question-03/` | Makerere University Examination Results | `index.html`, `results.css`, `banner.jpg` |
+| `Question-04/` | URA TIN Registration Portal | `index.html`, `portal.css` |
+| `Question-05/` | Serena Hotel Kampala Booking Portal | `index.html`, `booking.css` |
+| `Question-06/` | Chromelite Technologies Supplier Profile | `index.html`, `pricing.html`, `chromelite.css` |
+| `Question-07/` | NITA-U National IT Skills Assessment Survey | `index.html`, `survey.css` |
+| `Question-08/` | Uganda International Coffee Expo 2026 | `index.html`, `programme.html`, `speakers.html`, `exhibitors.html`, `expo.css` |
+| `Question-09/` | ISBAT Student Self-Service Portal | `dashboard.html`, `courses.html`, `fee-statement.html`, `portal.css` |
+| `Question-10/` | Stanbic Bank Uganda Loan Portal | `index.html`, `personal-loan.html`, `dlac.css` |
 
 ---
 
-## Assignment Briefs
+## Assignment Summaries and Solutions
 
 ### Question 01 — ISBAT IT Department Homepage
+A semantic HTML5 homepage built with inline CSS. It contains a department header and navigation, a hero section using `isbat-university-logo.png` at 80% width, department information, a list of four programmes and a footer.
 
-**Objective:** Create a simple homepage for the Department of Information Technology at ISBAT University using semantic HTML5 and inline CSS only.
+**Solution:** [Open Question 1](Question-01/)
 
-**Part A: Homepage Structure — `index.html`**
+### Question 02 — MTN Uganda Website
+A two-page MTN Uganda demonstration website with an external `style.css` stylesheet, a Flexbox navigation bar, hero image, service cards and a bundles page.
 
-- Create a `<header>` containing the department name as an `<h1>`.
-- Add navigation links: Home, About, Programmes and Contact.
-- Create a `<main>` section with a welcome `<h2>`.
-- Include two short paragraphs describing the department.
-- Add an unordered list of four programmes offered.
-- Create a `<footer>` containing the university address and copyright information.
+**Files:** `index.html`, `bundles.html`, `style.css`, `hero.jpg`.
 
-**Part B: Image and Hero Section**
-
-- Add a `<section>` below the header.
-- Include the `banner.jpg` image with meaningful alternative text.
-- Apply `width: 100%` using inline CSS.
-- Include a short welcome paragraph inside the section.
-
-**Technologies:** HTML5 and inline CSS.
-
-**Solution:** [View Question 1](Question-01/)
-
----
-
-
-### Question 2: MTN Uganda Website
-
-**Objective:** Build a simple two-page MTN Uganda website using HTML and external CSS.
-
-**Requirements:**
-- Create an external `style.css` file.
-- Apply a CSS reset to all elements.
-- Style a yellow Flexbox navigation bar using `#FFCC00`.
-- Style navigation links with dark text, bold weight, no underline and a hover colour of `#333333`.
-- Style the footer with a `#333333` background, white text, centred alignment and 20px padding.
-- Create a homepage (`index.html`) linked to the external stylesheet.
-- Add a full-width `hero.jpg` image with meaningful alternative text and the overlay text "Stay Connected, Uganda".
-- Display three service cards: Data Bundles, MoMo and Devices.
-- Give each service card a heading, description and yellow "Learn More" link button.
-- Create a Bundles page (`bundles.html`) with working navigation.
-
-**Technologies:** HTML5 and External CSS3.
-
+**Solution:** [Open Question 2](Question-02/)
 
 ### Question 03 — Makerere University Year 2 Examination Results
+A results display page using external CSS and a structured HTML table with eight student records, alternating row colours, grade styling and calculated class averages.
 
-**Objective:** Build a structured results display page for Year 2 Bachelor of Science in Information Technology students using HTML and external CSS.
+**Files:** `index.html`, `results.css`, `banner.jpg`.
 
-**Requirements:**
-- Create `index.html` and an external `results.css` stylesheet.
-- Display `banner.jpg` at the top with an inline width of 100%.
-- Show the university name and the Semester 2 Examination Results 2025/2026 heading.
-- Add a centered metadata bar with a grey (`#EEEEEE`) background.
-- Create a structured results table using `<thead>`, `<tbody>` and `<tfoot>`.
-- Include eight student rows and a correctly calculated class-average row.
-- Alternate table body row colours between white and `#FFF8F4`.
-- Use CSS colour-coding for grades.
+**Solution:** [Open Question 3](Question-03/)
 
-**Technologies:** HTML5 and External CSS3.
+### Question 04 — URA TIN Registration Portal
+A TIN registration form demonstration with a branded header, taxpayer-type choices, individual taxpayer fields, NIN pattern validation, National ID upload field and an external `portal.css` stylesheet.
 
-**Solution:** [View Question 3](Question-03/)
+**Files:** `index.html`, `portal.css`.
 
-### Question 04 — Coming Soon
+**Asset to add:** `ura-logo.png` (official URA logo image).
 
-The assignment brief and solution will be added when the question is received.
+**Solution:** [Open Question 4](Question-04/)
 
-### Question 05 — Coming Soon
+### Question 05 — Serena Hotel Kampala Booking Portal
+A single-page hotel portal with a sticky navigation bar, hero section, four room cards, a room comparison table and a booking-section anchor. Layout is styled through external `booking.css`.
 
-The assignment brief and solution will be added when the question is received.
+**Files:** `index.html`, `booking.css`.
 
-### Question 06 — Coming Soon
+**Assets to add:** `serena-logo.png` and `hero-serena.jpg`.
 
-The assignment brief and solution will be added when the question is received.
+**Solution:** [Open Question 5](Question-05/)
 
-### Question 07 — Coming Soon
+### Question 06 — Chromelite Technologies Limited Supplier Profile
+A two-page supplier profile with a company homepage, product cards, a pricing table containing nine sample products grouped into three categories, calculated subtotal/VAT/grand total, and internal print CSS on the pricing page.
 
-The assignment brief and solution will be added when the question is received.
+**Files:** `index.html`, `pricing.html`, `chromelite.css`.
 
-### Question 08 — Coming Soon
+**Asset to add:** `chromelite-logo.png`. Contact details and pricing figures are demonstration placeholders because verified company details were not supplied.
 
-The assignment brief and solution will be added when the question is received.
+**Solution:** [Open Question 6](Question-06/)
 
-### Question 09 — Coming Soon
+### Question 07 — NITA-U National IT Skills Assessment 2026
+A survey respondent-details page with a coat-of-arms image, banner, three-step progress indicator, respondent form fields and external `survey.css` styling.
 
-The assignment brief and solution will be added when the question is received.
+**Files:** `index.html`, `survey.css`.
 
-### Question 10 — Coming Soon
+**Assets to add:** `uganda-coat-of-arms.png` and `survey-banner.jpg`.
 
-The assignment brief and solution will be added when the question is received.
+**Solution:** [Open Question 7](Question-07/)
+
+### Question 08 — Uganda International Coffee Expo 2026
+A multi-page expo website with a homepage and highlights, a three-day programme table, featured and additional speakers, a call-for-papers section, and an exhibitors placeholder page. All page styling is in `expo.css`.
+
+**Files:** `index.html`, `programme.html`, `speakers.html`, `exhibitors.html`, `expo.css`.
+
+**Assets to add:** `expo-banner.jpg`, `speaker-sarah.jpg`, `speaker-daniel.jpg`, `speaker-grace.jpg` and `speaker-michael.jpg`. Speaker details and programme content are illustrative demonstration data.
+
+**Solution:** [Open Question 8](Question-08/)
+
+### Question 09 — ISBAT Student Self-Service Portal
+A student dashboard and courses page demonstrating a fixed sidebar, summary cards, internal CSS quick-links grid, inline status badges, an enrolled-courses table and a weekly timetable. A fee-statement placeholder page is also included.
+
+**Files:** `dashboard.html`, `courses.html`, `portal.css`, `fee-statement.html`.
+
+**Solution:** [Open Question 9](Question-09/)
+
+### Question 10 — Stanbic Bank Uganda Loan Portal
+A two-page loan portal with three loan product cards, a comparison table and a personal-loan application form. The project demonstrates external CSS for layout, inline CSS for the specified hero-image height and eligibility message, and responsive form styling.
+
+**Files:** `index.html`, `personal-loan.html`, `dlac.css`.
+
+**Asset to add:** `hero-bank.jpg`. Loan rates, maximum amounts and collateral descriptions are illustrative sample data, not verified bank offers. The form is a front-end demonstration and does not submit real loan applications.
+
+**Solution:** [Open Question 10](Question-10/)
 
 ---
+
+## Assets Still Required
+
+The following image files are referenced by the pages but were not present in the GitHub repository at the time of the final audit:
+
+- **Question 04:** `ura-logo.png`
+- **Question 05:** `serena-logo.png`, `hero-serena.jpg`
+- **Question 06:** `chromelite-logo.png`
+- **Question 07:** `uganda-coat-of-arms.png`, `survey-banner.jpg`
+- **Question 08:** `expo-banner.jpg`, `speaker-sarah.jpg`, `speaker-daniel.jpg`, `speaker-grace.jpg`, `speaker-michael.jpg`
+- **Question 10:** `hero-bank.jpg`
+
+Add the correct image files to their matching question folders using the exact filenames above. Questions 1, 2 and 3 image assets were found in the repository during the audit.
 
 ## Tools and Technologies
 
 - Visual Studio Code
-- Git
-- GitHub
-- HTML5
-- CSS
+- HTML5 and semantic elements
+- CSS3 (inline, internal and external stylesheets)
+- Flexbox and CSS Grid
+- HTML forms and tables
+- Git and GitHub
 
 ## Author
 
@@ -136,21 +134,4 @@ ISBAT University
 
 ---
 
-*This repository is continuously updated as practical assignments are completed.*
-
-### Question 04 — URA TIN Registration Portal
-
-**Objective:** Create a simple Uganda Revenue Authority TIN registration form using external CSS.
-
-**Requirements implemented:**
-- A branded header with the TIN Registration Portal heading and a URA logo image reference.
-- A gold information bar reminding applicants to have their National ID ready.
-- Individual Taxpayer and Business Entity toggle-style radio options.
-- Section A: Individual Taxpayer Details with labelled fields for full name, NIN, date of birth, gender, district, phone, email and National ID upload.
-- NIN validation using the required pattern: `[A-Z]{2}[A-Z0-9]{12}`.
-- A dark blue Next button with white text.
-- External styling in `portal.css`, using the specified dark blue and gold brand colours.
-
-**Files:** `Question-04/index.html`, `Question-04/portal.css`.
-
-**Asset still required:** Add the official logo image as `Question-04/ura-logo.png` before the page's visual check.
+*This repository records practical coursework and is updated as assignments are completed.*
