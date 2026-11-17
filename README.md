@@ -13,8 +13,8 @@ It serves as a record of my practical learning, technical development, and progr
 | Folder | Assignment |
 |---|---|
 | `Question-01/` | ISBAT IT Department Homepage |
-| `Question-02/` | Coming soon |
-| `Question-03/` | Coming soon |
+| `Question-02/` | MTN Uganda Website |
+| `Question-03/` | Makerere University Year 2 Results Table |
 | `Question-04/` | Coming soon |
 | `Question-05/` | Coming soon |
 | `Question-06/` | Coming soon |
@@ -73,9 +73,23 @@ It serves as a record of my practical learning, technical development, and progr
 **Technologies:** HTML5 and External CSS3.
 
 
-### Question 03 — Coming Soon
+### Question 03 — Makerere University Year 2 Examination Results
 
-The assignment brief and solution will be added when the question is received.
+**Objective:** Build a structured results display page for Year 2 Bachelor of Science in Information Technology students using HTML and external CSS.
+
+**Requirements:**
+- Create `index.html` and an external `results.css` stylesheet.
+- Display `banner.jpg` at the top with an inline width of 100%.
+- Show the university name and the Semester 2 Examination Results 2025/2026 heading.
+- Add a centered metadata bar with a grey (`#EEEEEE`) background.
+- Create a structured results table using `<thead>`, `<tbody>` and `<tfoot>`.
+- Include eight student rows and a correctly calculated class-average row.
+- Alternate table body row colours between white and `#FFF8F4`.
+- Use CSS colour-coding for grades.
+
+**Technologies:** HTML5 and External CSS3.
+
+**Solution:** [View Question 3](Question-03/)
 
 ### Question 04 — Coming Soon
 
