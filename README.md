@@ -15,7 +15,7 @@ It serves as a record of my practical learning, technical development, and progr
 | `Question-01/` | ISBAT IT Department Homepage |
 | `Question-02/` | MTN Uganda Website |
 | `Question-03/` | Makerere University Year 2 Results Table |
-| `Question-04/` | Coming soon |
+| `Question-04/` | URA TIN Registration Portal |
 | `Question-05/` | Coming soon |
 | `Question-06/` | Coming soon |
 | `Question-07/` | Coming soon |
@@ -137,3 +137,20 @@ ISBAT University
 ---
 
 *This repository is continuously updated as practical assignments are completed.*
+
+### Question 04 — URA TIN Registration Portal
+
+**Objective:** Create a simple Uganda Revenue Authority TIN registration form using external CSS.
+
+**Requirements implemented:**
+- A branded header with the TIN Registration Portal heading and a URA logo image reference.
+- A gold information bar reminding applicants to have their National ID ready.
+- Individual Taxpayer and Business Entity toggle-style radio options.
+- Section A: Individual Taxpayer Details with labelled fields for full name, NIN, date of birth, gender, district, phone, email and National ID upload.
+- NIN validation using the required pattern: `[A-Z]{2}[A-Z0-9]{12}`.
+- A dark blue Next button with white text.
+- External styling in `portal.css`, using the specified dark blue and gold brand colours.
+
+**Files:** `Question-04/index.html`, `Question-04/portal.css`.
+
+**Asset still required:** Add the official logo image as `Question-04/ura-logo.png` before the page's visual check.
