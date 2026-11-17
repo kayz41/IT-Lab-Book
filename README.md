@@ -1,4 +1,4 @@
-# ISBAT University — IT Lab Book
+# Web Design Lab Practicals — ISBAT University
 
 ## About This Project
 
